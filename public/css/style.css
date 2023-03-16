@@ -1,0 +1,341 @@
+/* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 1;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar .search-container button {
+  float: right;
+  padding: 5px;
+  background: #e3d4d4;
+  color: #000000;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+  background: #920808;
+}
+.navbar .search-container {
+  float: right;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.navbar input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: none;
+}
+
+
+
+
+
+ .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 800px;
+    
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn_success {
+    background-color: #28a745;
+  }
+  
+  .btn_success:hover {
+    background-color: #218838;
+  }
+  
+  .form_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 62%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  
+  .container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .heading2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .heading2 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .blog_post {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog_post h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blog_post p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .blog_post h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+    color: #999;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn_success {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .btn_success:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn_succcess {
+    background-color: #0d878e99;
+    color: #fff;
+  }
+  
+  .btn_succcess:hover {
+    background-color: #000000;
+  }
+  
+
+  .btn_info {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .btn_info:hover {
+    background-color: #0b7dda;
+  }
+  
+  .btn_danger {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .btn_danger:hover {
+    background-color: #da190b;
+  }
+   
+/*
+lognin and signup */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-btn, .signup-btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 500px 10px; 
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: #1082a4;
+}
+
+/*login css*/
+/* Center the login form */
+.login_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form header */
+.login_page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the form labels */
+.login_page label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Style the form input fields */
+.login_page input[type="email"],
+.login_page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+.login_page input[type="submit"] {
+  background-color: #000600;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.login_page input[type="submit"]:hover {
+  background-color: #5d0675;
+}
+
+/* profile card */
+.card {
+   box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  width: 300px;
+  padding: 30px;
+  margin-top: 200px;
+  margin-left: 550px;
+  text-align: center;
+  font-family: arial; 
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.alert {
+  width: 15%;
+  padding: 10px;
+  margin: 19px;
+  margin-left: 200px;
+  margin-top: 50px;
+  color: rgb(8, 154, 8);
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+}

@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+<div class="navbar">
+    <a  href="/home">Home</a>
+    <a  href="/article/new">NEW ARTICLE</a>
+    <div class="search-container">
+        <form action="/search" method="post">
+            <input  type="text" name="keyi" placeholder="Search...." required>
+            <button  type="submit">search</button>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="form">
+        <div class="form_container">
+            <form action="/article/edit/<%=article.id%>" method="post">
+                <input type="text" name="title" 
+                value=<%=article.title%>>
+                <textarea name="des" id="" cols="30" rows="10">
+                    <%=article.des%>
+                </textarea>
+                <textarea name="info" id="" cols="30" rows="10">
+                    <%=article.info%>
+                </textarea>
+                <button class="btn btn-info" type="submit">update</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer') %>

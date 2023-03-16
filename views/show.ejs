@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+<div class="navbar">
+    <a  href="/home">Home</a>
+    <a  href="/article/new">NEW ARTICLE</a>
+    <div class="search-container">
+        <form action="/search" method="post">
+            <input  type="text" name="keyi" placeholder="Search...." required>
+            <button  type="submit">search</button>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="heading">
+        <a class="btn btn_info" href="/article/edit/<%=article.id %>">Edit</a>
+    </div>
+    <div class="single_post">
+        <h3>Total Likes :<%= article.likcnt %></h3>
+        <form action="/like/<%=article.id%>" method="post">
+            <button class="like-btn" type="submit">like</button>
+        </form>
+        <h1><%= article.title %></h1>
+        <p><%= article.des %></p>
+        <b><%= article.info %></b>
+        <h5><i>CreatedBy:<%=article.createdname %> on <%= article.createdAt.toLocaleDateString()%> </i></h5>
+    </div>
+
+</div>
+<%- include('partials/footer') %>
